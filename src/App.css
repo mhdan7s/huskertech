@@ -1,0 +1,126 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-header {
+  padding: 5px 12px;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  width:620px;
+  height:35px;
+  border-radius: 5px;
+}
+
+.page-options {
+  font-size: large;
+  margin-right: 10px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.page {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+.main-body {
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 350px;
+  overflow-y: scroll;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.message {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  word-wrap: break-word;
+  line-height: 1.4;
+  max-width: 70%;
+  width: fit-content;
+}
+
+.user-message {
+  background-color: #0084ff;
+  color: white;
+  margin-left: auto;
+  border-bottom-right-radius: 5px;
+  max-width: 50%;
+  width: fit-content;
+}
+
+.ai-message {
+  background-color: #e5e5ea;
+  color: black;
+  margin-right: auto;
+  border-bottom-left-radius: 5px;
+  max-width: 70%;
+  width: fit-content;
+}
+
+.chat-icon {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.ai-response-text {
+  font-family: 'Georgia', serif;
+  font-size: 1.1em;
+  line-height: 1.6; 
+  color: #495057;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+}
+
+.ai-response-text strong {
+  color: #007bff;
+}
